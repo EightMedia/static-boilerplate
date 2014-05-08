@@ -69,3 +69,4 @@ gulp.task "watch", ->
 
 
 gulp.task "default", ["server", "watch"]
+gulp.task "build", ["compile-sass", "compile-js", "compile-jade", "compress-images"]
