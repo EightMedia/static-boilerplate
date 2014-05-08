@@ -1,0 +1,29 @@
+{
+  "name": "static-site",
+  "version": "0.0.1",
+  "author": "J. Tangelder <jorik@eight.nl>",
+  "dependencies": {},
+  "scripts": {
+    "start": "gulp",
+    "postinstall": "bower install"
+  },
+  "devDependencies": {
+    "gulp": "~3.6.0",
+    "gulp-rename": "~1.2.0",
+    "gulp-imagemin": "~0.5.0",
+    "gulp-uglify": "~0.2.1",
+    "gulp-connect": "~2.0.0",
+    "gulp-plumber": "^0.6.0",
+    "gulp-sass": "^0.7.1",
+    "gulp-jade": "^0.5.0",
+    "marked": "^0.3.2",
+    "coffee-script": "~1.7.0",
+    "gulp-changed": "^0.3.0",
+    "gulp-autoprefixer": "0.0.7",
+    "compression": "^1.0.2",
+    "coffee-loader": "^0.7.1",
+    "gulp-util": "^2.2.14",
+    "webpack": "^1.1.9",
+    "script-loader": "^0.5.2"
+  }
+}

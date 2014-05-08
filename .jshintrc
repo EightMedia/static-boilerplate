@@ -1,0 +1,22 @@
+{
+  "browser" : true,
+  "curly" : true,
+  "eqnull" : true,
+  "expr" : true,
+  "laxcomma" : true,
+  "maxerr" : 100,
+  "newcap" : true,
+  "node" : true,
+  "strict" : false,
+  "sub" : false,
+  "trailing" : true,
+  "undef" : true,
+  "unused" : true,
+  "jquery": true,
+  "globals" : {
+    "define" : false,
+    "YT": true,
+    "Snap": true,
+    "Modernizr": true
+  }
+}
