@@ -1,9 +1,5 @@
 {
   "name": "static-boilerplate",
-  "version": "0.0.1",
-  "authors": [
-    "J. Tangelder <jorik@eight.nl>"
-  ],
   "ignore": [
     "**/.*",
     "node_modules",
