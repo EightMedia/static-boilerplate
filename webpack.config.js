@@ -24,11 +24,12 @@ module.exports = {
     module: {
         // auto-loaders
         loaders: [
+            { test: /\.js/, loader: "es6-loader" },
             { test: /\.coffee/, loader: "coffee-loader" }
         ]
     },
     plugins: [
-        new webpack.optimize.UglifyJsPlugin(),
+        //new webpack.optimize.UglifyJsPlugin(),
         new webpack.ResolverPlugin(
             new webpack.ResolverPlugin.DirectoryDescriptionFilePlugin("bower.json", ["main"])
         )

@@ -10,7 +10,9 @@ rebuild of it all.
 
 ### Webpack
 Files in `/src/assets/js/` make use of [Webpack](http://webpack.github.io). You can find the config in
-`/webpack.config.js`. It is configured to support bower.
+`/webpack.config.js`. It is configured to support bower and ES6 with
+[es6-transpiler](https://github.com/termi/es6-transpiler) and
+[es-module-transpiler](https://github.com/square/es6-module-transpiler).
 
 ### Jade templates
 The [jade](http://jade-lang.com/) files inside `/src/` are being compiled to .html and placed inside `/httpdocs/`. The

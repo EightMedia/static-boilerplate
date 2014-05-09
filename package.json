@@ -24,6 +24,7 @@
     "coffee-loader": "^0.7.1",
     "gulp-util": "^2.2.14",
     "webpack": "^1.1.9",
-    "script-loader": "^0.5.2"
+    "script-loader": "^0.5.2",
+    "es6-loader": "git://github.com/jtangelder/es6-loader.git"
   }
 }

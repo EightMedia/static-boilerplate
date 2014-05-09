@@ -1,2 +1,2 @@
-// load modernizr in the window scope
-require("script!modernizr/modernizr");
+// load html5shiv in the window scope
+require("script!html5shiv/dist/html5shiv");
